@@ -7,10 +7,10 @@ Automate everything from code deployment to network configuration to cloud manag
  - ansible-inventory --list
  - ansible all -m ping
  - [enable ssh to root on the remote node]
- -- - sudo nano /etc/ssh/sshd_config
- -- - PermitRootLogin yes
- -- - sudo service ssh restart
- -- - sudo passwd
+ - -- sudo nano /etc/ssh/sshd_config
+ - -- PermitRootLogin yes
+ - -- sudo service ssh restart
+ - -- sudo passwd
  - sudo apt install sshpass
  - ansible all -m ping --ask-pass
  
