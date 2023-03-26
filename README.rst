@@ -1,16 +1,16 @@
 Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems.
 
 
-#NOTES
+##NOTES
  - python3 -m pip install --user ansible
  - nano /etc/ansible/hosts
  - ansible-inventory --list
  - ansible all -m ping
  - [enable ssh to root on the remote node]
- --- sudo nano /etc/ssh/sshd_config
- --- PermitRootLogin yes
- --- sudo service ssh restart
- --- sudo passwd
+ -- - sudo nano /etc/ssh/sshd_config
+ -- - PermitRootLogin yes
+ -- - sudo service ssh restart
+ -- - sudo passwd
  - sudo apt install sshpass
  - ansible all -m ping --ask-pass
  
