@@ -4,17 +4,16 @@ Automate everything from code deployment to network configuration to cloud manag
 ##NOTES
 
 ANSIBLE CORE, sudo?
- - python3 -m pip install --user ansible
- - nano /etc/ansible/hosts
- - ansible-inventory --list
- - ansible all -m ping
+ - sudo python3 -m pip install --user ansible
+ - sudo nano /etc/ansible/hosts
+ - sudo ansible-inventory --list
  - [enable ssh to root on the remote node]
  - -- sudo nano /etc/ssh/sshd_config
  - -- PermitRootLogin yes
  - -- sudo service ssh restart
  - -- sudo passwd
  - sudo apt install sshpass
- - ansible all -m ping --ask-pass
+ - sudo ansible all -m ping --ask-pass
  
 ANSIBLE AWX UI
  - https://github.com/higorvaz/ansible-awx-ui 
