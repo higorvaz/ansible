@@ -18,7 +18,7 @@ ANSIBLE CORE
  
 ANSIBLE AWX UI
  - https://github.com/higorvaz/ansible-awx-ui 
- -- gh repo clone higorvaz/ansible-awx-ui
+ - -- gh repo clone higorvaz/ansible-awx-ui
  
 |PyPI version| |Docs badge| |Chat badge| |Build Status| |Code Of Conduct| |Mailing Lists| |License| |CII Best Practices|
 
