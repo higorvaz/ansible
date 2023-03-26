@@ -2,6 +2,8 @@ Automate everything from code deployment to network configuration to cloud manag
 
 
 ##NOTES
+
+ANSIBLE CORE
  - python3 -m pip install --user ansible
  - nano /etc/ansible/hosts
  - ansible-inventory --list
@@ -14,7 +16,9 @@ Automate everything from code deployment to network configuration to cloud manag
  - sudo apt install sshpass
  - ansible all -m ping --ask-pass
  
-
+ANSIBLE AWX UI
+ - https://github.com/higorvaz/ansible-awx-ui 
+ -- gh repo clone higorvaz/ansible-awx-ui
  
 |PyPI version| |Docs badge| |Chat badge| |Build Status| |Code Of Conduct| |Mailing Lists| |License| |CII Best Practices|
 
