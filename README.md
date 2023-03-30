@@ -27,6 +27,9 @@ ANSIBLE CORE, sudo?
 
 ![](https://user-images.githubusercontent.com/9384127/228976480-eb13949d-9a71-4e04-ba08-9567010ad8ea.png)
 
+*   python3 -m pip install --user argcomplete
+*   activate-global-python-argcomplete --user
+
 ANSIBLE AWX UI
 
 *   https://github.com/higorvaz/ansible-awx-ui
