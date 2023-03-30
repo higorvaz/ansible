@@ -3,7 +3,7 @@ Automate everything from code deployment to network configuration to cloud manag
 
 ##NOTES
 
-ANSIBLE CORE, sudo?
+ANSIBLE CORE, sudo?  
  - sudo python3 -m pip install --user ansible
  - sudo nano /etc/ansible/hosts
  - sudo ansible-inventory --list
@@ -14,6 +14,9 @@ ANSIBLE CORE, sudo?
  - -- sudo passwd
  - sudo apt install sshpass
  - sudo ansible all -m ping --ask-pass
+ - sudo ansible --version
+ - python3 -m pip show ansible
+ - 
  
 ANSIBLE AWX UI
  - https://github.com/higorvaz/ansible-awx-ui 
